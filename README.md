@@ -1,68 +1,27 @@
-*Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
-
 ---
 
-# svelte app
-
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
-
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
-
+# Svelte app
+이 프로젝트는 Svelte를 사용하였습니다.
+사용 템플릿은 https://github.com/Rich-Harris/degit 기반으로 만들었습니다.
 ```bash
 npx degit sveltejs/template svelte-app
 cd svelte-app
 ```
 
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
+*이 프로젝트를 시작할려면 [Node.js](https://nodejs.org) 다운로드 해야합니다.*
 
 
-## Get started
+## 시작 방법
 
-Install the dependencies...
+종속성 설치!
 
 ```bash
 cd svelte-app
 npm install
 ```
-
-...then start [Rollup](https://rollupjs.org):
-
+아래는 다시 실행 하는 방법입니다.
 ```bash
 npm run dev
 ```
 
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
-
-
-## Deploying to the web
-
-### With [now](https://zeit.co/now)
-
-Install `now` if you haven't already:
-
-```bash
-npm install -g now
-```
-
-Then, from within your project folder:
-
-```bash
-now
-```
-
-As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public
-```
+[localhost:5000](http://localhost:5000)로 이동합니다.  
