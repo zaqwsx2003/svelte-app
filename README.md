@@ -21,6 +21,7 @@ npm install
 ```
 아래는 다시 실행 하는 방법입니다.
 ```bash
+cd svelte-app
 npm run dev
 ```
 
